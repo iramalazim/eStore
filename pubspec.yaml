@@ -18,6 +18,8 @@ dependencies:
   intl: ^0.20.2
   logger: ^2.6.1
   url_launcher: ^6.3.2
+  flutter_native_splash: ^2.4.6
+  smooth_page_indicator: ^1.2.1
 
   #icons
   iconsax:  ^0.0.8
@@ -45,10 +47,9 @@ flutter:
   #--------------Local Assests---------------#
   assets:
     - assets/fonts/
-    - assets/icons/brands
-    - assets/images/
+    - assets/icons/brands/
+    - assets/images/on_boarding_images/
     - assets/logos/
-
   fonts:
     - family: Comfortaa
       fonts:

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class EStoreColors {
   EStoreColors._();
   // App Basic Colors
-  static const Color primary = Color(0xFF4b68ff);
+  static const Color primary = Color(0xFF5effa8);
   static const Color secondary = Color(0xFFFFE24B);
   static const Color accent = Color(0xFFb0c7ff);
 
@@ -29,7 +29,7 @@ class EStoreColors {
   static const Color darkContainer = Color(0x1AFFFFFF);
 
   // Button Colors
-  static const Color buttonPrimary = Color(0xFF4b68ff);
+  static const Color buttonPrimary = Color(0xFF5effa8);
   static const Color buttonSecondary = Color(0xFF6C757D);
   static const Color buttonDisabled = Color(0xFFC4C4C4);
 

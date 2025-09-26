@@ -14,7 +14,7 @@ class EStoreCheckboxTheme {
     }),
     fillColor: WidgetStateProperty.resolveWith((states) {
       if (states.contains(WidgetState.selected)) {
-        return Colors.blue;
+        return Color.fromARGB(255, 94, 255, 168);
       } else {
         return Colors.transparent;
       }
@@ -32,7 +32,7 @@ class EStoreCheckboxTheme {
     }),
     fillColor: WidgetStateProperty.resolveWith((states) {
       if (states.contains(WidgetState.selected)) {
-        return Colors.blue;
+        return Color.fromARGB(255, 94, 255, 168);
       } else {
         return Colors.transparent;
       }

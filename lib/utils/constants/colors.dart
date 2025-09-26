@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 class EStoreColors {
   EStoreColors._();
   // App Basic Colors
-  static const Color primary = Color(0xFF5effa8);
+  static const Color primary = Color.fromARGB(255, 87, 240, 158);
   static const Color secondary = Color(0xFFFFE24B);
-  static const Color accent = Color(0xFFb0c7ff);
+  static const Color accent = Color.fromARGB(255, 99, 202, 145);
 
   //Gradiant Colors
   static const Gradient linearGradient = LinearGradient(

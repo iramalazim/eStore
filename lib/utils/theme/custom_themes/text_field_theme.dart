@@ -5,8 +5,8 @@ class EStoreTextFieldTheme {
 
   static InputDecorationTheme lightInputDecorationTheme = InputDecorationTheme(
     errorMaxLines: 3,
-    prefixIconColor: Colors.grey,
-    suffixIconColor: Colors.grey,
+    prefixIconColor: Color.fromARGB(255, 94, 255, 168),
+    suffixIconColor: Color.fromARGB(255, 94, 255, 168),
 
     labelStyle: const TextStyle().copyWith(fontSize: 14, color: Colors.black),
     hintStyle: const TextStyle().copyWith(fontSize: 14, color: Colors.black),
@@ -16,11 +16,17 @@ class EStoreTextFieldTheme {
     ),
     border: OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
-      borderSide: const BorderSide(width: 1, color: Colors.grey),
+      borderSide: const BorderSide(
+        width: 1,
+        color: Color.fromARGB(255, 94, 255, 168),
+      ),
     ),
     enabledBorder: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
-      borderSide: const BorderSide(width: 1, color: Colors.grey),
+      borderSide: const BorderSide(
+        width: 1,
+        color: Color.fromARGB(255, 94, 255, 168),
+      ),
     ),
     focusedBorder: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
@@ -38,8 +44,8 @@ class EStoreTextFieldTheme {
 
   static InputDecorationTheme darkInputDecorationTheme = InputDecorationTheme(
     errorMaxLines: 2,
-    prefixIconColor: Colors.grey,
-    suffixIconColor: Colors.grey,
+    prefixIconColor: Color.fromARGB(255, 94, 255, 168),
+    suffixIconColor: Color.fromARGB(255, 94, 255, 168),
 
     labelStyle: const TextStyle().copyWith(fontSize: 14, color: Colors.white),
     hintStyle: const TextStyle().copyWith(fontSize: 14, color: Colors.white),
@@ -48,11 +54,17 @@ class EStoreTextFieldTheme {
     ),
     border: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
-      borderSide: const BorderSide(width: 1, color: Colors.grey),
+      borderSide: const BorderSide(
+        width: 1,
+        color: Color.fromARGB(255, 94, 255, 168),
+      ),
     ),
     enabledBorder: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
-      borderSide: const BorderSide(width: 1, color: Colors.grey),
+      borderSide: const BorderSide(
+        width: 1,
+        color: Color.fromARGB(255, 94, 255, 168),
+      ),
     ),
     focusedBorder: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),

@@ -7,7 +7,7 @@ class EStoreOutlinedButtonTheme {
     style: OutlinedButton.styleFrom(
       elevation: 0,
       foregroundColor: Colors.black,
-      side: const BorderSide(color: Colors.blue),
+      side: const BorderSide(color: Color.fromARGB(255, 94, 255, 168)),
       textStyle: const TextStyle(
         fontSize: 16,
         color: Colors.black,
@@ -21,7 +21,7 @@ class EStoreOutlinedButtonTheme {
   static final darkOutlinedButtonTheme = OutlinedButtonThemeData(
     style: OutlinedButton.styleFrom(
       foregroundColor: Colors.white,
-      side: const BorderSide(color: Colors.blueAccent),
+      side: const BorderSide(color: Color.fromARGB(255, 94, 255, 168)),
       textStyle: const TextStyle(
         fontSize: 16,
         color: Colors.white,

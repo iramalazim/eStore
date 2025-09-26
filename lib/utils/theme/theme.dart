@@ -4,6 +4,7 @@ import 'package:e_store/utils/theme/custom_themes/checkbox_theme.dart';
 import 'package:e_store/utils/theme/custom_themes/chip_theme.dart';
 import 'package:e_store/utils/theme/custom_themes/elevated_button_theme.dart';
 import 'package:e_store/utils/theme/custom_themes/outlined_button_theme.dart';
+import 'package:e_store/utils/theme/custom_themes/text_button_theme.dart';
 import 'package:e_store/utils/theme/custom_themes/text_field_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:e_store/utils/theme/custom_themes/text_theme.dart';
@@ -15,7 +16,7 @@ class EStoreTheme {
     useMaterial3: true,
     fontFamily: 'Comfortaa',
     brightness: Brightness.light,
-    primaryColor: Colors.blue,
+    primaryColor: Color.fromARGB(255, 94, 255, 168),
     scaffoldBackgroundColor: Colors.white,
     textTheme: EStoreTextTheme.lightTextTheme,
     chipTheme: EStoreChipTheme.lightChipTheme,
@@ -25,13 +26,14 @@ class EStoreTheme {
     bottomSheetTheme: EStoreBottomSheetTheme.lightBottomSheetTheme,
     outlinedButtonTheme: EStoreOutlinedButtonTheme.lightOutlinedButtonTheme,
     inputDecorationTheme: EStoreTextFieldTheme.lightInputDecorationTheme,
+    textButtonTheme: EStoreTextButtonTheme.lightTextButtonTheme,
   );
 
   static ThemeData darkTheme = ThemeData(
     useMaterial3: true,
     fontFamily: 'Comfortaa',
     brightness: Brightness.dark,
-    primaryColor: Colors.blue,
+    primaryColor: Color.fromARGB(255, 94, 255, 168),
     scaffoldBackgroundColor: Colors.black,
     textTheme: EStoreTextTheme.darkTextTheme,
     elevatedButtonTheme: EStoreElevatedButtonTheme.darkElevatedButtonTheme,
@@ -40,5 +42,6 @@ class EStoreTheme {
     bottomSheetTheme: EStoreBottomSheetTheme.darkBottomSheetTheme,
     outlinedButtonTheme: EStoreOutlinedButtonTheme.darkOutlinedButtonTheme,
     inputDecorationTheme: EStoreTextFieldTheme.darkInputDecorationTheme,
+    textButtonTheme: EStoreTextButtonTheme.darkTextButtonTheme,
   );
 }

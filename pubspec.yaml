@@ -6,7 +6,7 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.9.2
+  sdk: ^3.9.0
 
 
 #--------------Packages---------------#
@@ -47,7 +47,7 @@ flutter:
   #--------------Local Assests---------------#
   assets:
     - assets/fonts/
-    - assets/icons/brands/
+    #- assets/icons/brands/
     - assets/images/on_boarding_images/
     - assets/logos/
   fonts:

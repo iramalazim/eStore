@@ -32,9 +32,11 @@ class EStroreTexts {
   static const String and = "and";
   static const String privacyPolicy = "Privacy Policy";
   static const String termsOfUse = "Terms of Use";
+  static const String continueButton = "Continue";
   static const String verificationCode = "VerificationCode";
   static const String resendEmail = "Resend Email";
   static const String resendEmailIn = "Resend Email In";
+  static const String done = "Done";
 
   // Authentication Headings Text
   static const String loginTitle = "Welcome back.";

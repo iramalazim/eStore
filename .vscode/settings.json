@@ -2,5 +2,9 @@
     "cmake.ignoreCMakeListsMissing": true,
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
     "editor.guides.bracketPairs": true,
-    "editor.guides.bracketPairsHorizontal": true
+    "editor.guides.bracketPairsHorizontal": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit"
+    }
 }

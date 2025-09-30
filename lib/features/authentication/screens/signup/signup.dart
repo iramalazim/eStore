@@ -33,7 +33,7 @@ class SignupScreen extends StatelessWidget {
               FormDivider(dividerText: EStroreTexts.orSignInWith.capitalize!),
               const SizedBox(height: EStoreSizes.spaceBtwSections),
               //Social Button
-              const SocialButtons()
+              const SocialButtons(),
             ],
           ),
         ),
@@ -41,5 +41,3 @@ class SignupScreen extends StatelessWidget {
     );
   }
 }
-
-
